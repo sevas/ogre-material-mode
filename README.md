@@ -4,6 +4,9 @@ ogre-material-mode
 Emacs major mode for Ogre3D material scripts. Provides basic syntax coloring via font-lock mode.
 
 
+![ogre-material-mode on cocoa-emacs](screenshot.png "ogre-material-mode on cocoa-emacs")
+
+
 Installation
 =================
 
