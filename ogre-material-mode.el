@@ -2,12 +2,11 @@
 
 ;; Copyright (C) 2010
 
-;; Authors:    2010- Frederic De Groef
-;; Maintainer: f.degroef@gmail.com
+;; Author:     2010- Frederic De Groef <f.degroef@gmail.com>
 ;; Created:    Feb 2010
 ;; Keywords:   Languages
 
-;; THis program is free software, distributed under the 
+;; This program is free software, distributed under the 
 ;; DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE.
 ;; See COPYING.txt for details.
 
@@ -20,7 +19,7 @@
 
 ;;; Notes
 ;; This mode provides basic syntax coloring for the Ogre3D (www.ogre3d.org) 
-;; material definition scripts(via font-lock).
+;; material definition scripts (via font-lock).
 ;; Because this is regexp-based, and because everyone knows that parsing 
 ;; a grammar with regexp sucks, there is much room for improvement.
 ;;
@@ -28,7 +27,7 @@
 ;;  * Real parsing, for smart indent (can't fallback on c-mode here)
 ;;  * Possibility to open associated glsl/hlsl/cg shader files
 ;;  * Completion
-;; However, this being my first attempt at extending emacs, there is currecntly 
+;; However, this being my first attempt at extending emacs, there is currently 
 ;; no strategy to implement the afformentionned features.
 ;; Comments and ideas are more than welcome.
 
