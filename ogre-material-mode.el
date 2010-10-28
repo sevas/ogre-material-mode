@@ -41,7 +41,7 @@
 
 
 (add-to-list 'auto-mode-alist '("\\.material\\'" . ogre-material-mode))
-
+(add-to-list 'auto-mode-alist '("\\.program\\'" . ogre-material-mode))
 
 (let* (;; section names
        (ogre-material-section-names
@@ -218,7 +218,7 @@
          '("\\(\\([[:blank:]]+[0-9]+\\)\\(\\.\\([0-9]+\\)\\)?\\)" 1 font-lock-constant-face)
 	     
 	     ;; comment
-		 '("^\\([[:blank:]]*\\)\\(//\\).*" 1 font-lock-comment-face)
+		 '("^\\([[:blank:]]\\)*//.*$" 1 font-lock-comment-face)
          )))
      
 
